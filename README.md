@@ -12,7 +12,7 @@ Clone this repo and copy the skills you want:
 
 ```bash
 git clone https://github.com/lnevespereira/skai
-cp -r skai/backlog ~/.claude/skills/
+cp -r skai/backlog ~/.claude/skills/backlog
 ```
 
 ## Skills
