@@ -1,4 +1,4 @@
-# claude-skills
+# skai
 
 A collection of personal Claude Code skills I use day to day.
 
@@ -8,11 +8,11 @@ A skill is a slash command for [Claude Code](https://claude.ai/code). Drop a fol
 
 ## Install
 
-Clone this repo and symlink or copy the skills you want:
+Clone this repo and copy the skills you want:
 
 ```bash
-git clone https://github.com/lnevespereira/claude-skills
-cp -r claude-skills/backlog ~/.claude/skills/
+git clone https://github.com/lnevespereira/skai
+cp -r skai/backlog ~/.claude/skills/
 ```
 
 Then in Claude Code:
@@ -27,7 +27,7 @@ Then in Claude Code:
 
 Keeps a running work log so you remember what you shipped each month.
 
-Appends a timestamped bullet to a markdown file. Grouped by month, one bullet per thing done. If you use the Jira CLI, pass a ticket ID and it pulls context automatically.
+Appends a bullet to a markdown file. Grouped by month, one bullet per thing done. If you use the Jira CLI, pass a ticket ID and it pulls context automatically.
 
 **Setup:**
 
