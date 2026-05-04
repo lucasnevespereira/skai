@@ -15,29 +15,17 @@ git clone https://github.com/lnevespereira/skai
 cp -r skai/backlog ~/.claude/skills/
 ```
 
-Then in Claude Code:
-
-```
-/backlog shipped the auth refactor
-```
-
 ## Skills
 
 ### /backlog
 
-Keeps a running work log so you remember what you shipped each month.
-
-Appends a bullet to a markdown file. Grouped by month, one bullet per thing done. If you use the Jira CLI, pass a ticket ID and it pulls context automatically.
-
-**Setup:**
+Keeps a running work log so you remember what you shipped each month. If you use the Jira CLI, pass a ticket ID and it pulls context automatically.
 
 On first use the skill will ask where to store the file. Optionally set `BACKLOG_PATH` to skip that prompt:
 
 ```bash
 export BACKLOG_PATH=~/notes/backlog.md
 ```
-
-**Usage:**
 
 ```
 /backlog rewrote the payment service
