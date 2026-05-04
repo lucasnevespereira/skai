@@ -31,13 +31,11 @@ Appends a bullet to a markdown file. Grouped by month, one bullet per thing done
 
 **Setup:**
 
-Set `BACKLOG_PATH` to wherever you want the file:
+On first use the skill will ask where to store the file. Optionally set `BACKLOG_PATH` to skip that prompt:
 
 ```bash
 export BACKLOG_PATH=~/notes/backlog.md
 ```
-
-If not set, the skill will ask on first use.
 
 **Usage:**
 
