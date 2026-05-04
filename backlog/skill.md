@@ -16,7 +16,7 @@ This is a personal work log. Entries are written for the user's own reference â€
    - Check if `BACKLOG_PATH` env var is set.
    - If not set, ask the user: "Where do you want to store your backlog? (default: ~/Documents/notes/backlog.md)"
    - Use their answer or the default. Create the file if it doesn't exist.
-   - Then tell the user: "To avoid this prompt in future sessions, add this to your shell profile:" and show the exact line: `export BACKLOG_PATH=<path>`
+   - Then tell the user: "To avoid this prompt next time, run:" and show: `! echo 'export BACKLOG_PATH=<path>' >> ~/.zshrc`
 
 2. Parse `$ARGUMENTS`:
    - If it contains a ticket ID pattern (e.g. `ABC-1234`), try `jira issue view ABC-1234` to get context. If `jira` is not installed or the command fails, skip silently.

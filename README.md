@@ -21,11 +21,7 @@ cp -r skai/backlog ~/.claude/skills/
 
 Keeps a running work log so you remember what you shipped each month. If you use the Jira CLI, pass a ticket ID and it pulls context automatically.
 
-On first use the skill will ask where to store the file. Optionally set `BACKLOG_PATH` to skip that prompt:
-
-```bash
-export BACKLOG_PATH=~/notes/backlog.md
-```
+On first use the skill will ask where to store the file and show you the command to persist it in your shell profile so you're never asked again.
 
 ```
 /backlog rewrote the payment service
