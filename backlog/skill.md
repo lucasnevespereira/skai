@@ -1,6 +1,6 @@
 ---
 name: backlog
-description: Appends a work entry to a personal backlog file. Path is read from BACKLOG_PATH env var. If not set, asks the user on first use. Usage: /backlog <what you did> [TICKET-1234]
+description: "Appends a work entry to a personal backlog file. Path is read from BACKLOG_PATH env var. If not set, asks the user on first use. Usage: /backlog <what you did> [TICKET-1234]"
 argument-hint: "<brief description> [TICKET-1234]"
 disable-model-invocation: true
 allowed-tools: Bash, Read, Edit, Write
